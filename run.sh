@@ -9,7 +9,7 @@ echo '        "'$NEXUS_PASSWORD'")' >> ~/.sbt/1.0/sonatype.sbt
 
 touch ~/.private.key
 echo -e $NEXUS_PK > ~/.private.key
-gpg --import ~/.private.key
+gpg --batch --import ~/.private.key
 rm -rf ~/.private.key
 
 mkdir -p ~/.sbt/1.0/plugins/
