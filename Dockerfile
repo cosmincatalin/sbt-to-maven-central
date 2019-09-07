@@ -10,5 +10,5 @@ LABEL repository="https://github.com/audienceproject/sbt-to-maven-central"
 LABEL homepage="https://github.com/audienceproject/sbt-to-maven-central"
 LABEL maintainer="Cosmin Catalin Sanda <cosmincatalini@gmail.com>"
 
-ADD run.sh /run.sh
-ENTRYPOINT ["/run.sh"]
+ADD entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
