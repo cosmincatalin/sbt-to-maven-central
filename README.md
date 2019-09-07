@@ -1,2 +1,1 @@
-# sbt-to-maven-central
-GitHub action for publishing libraries to Maven central using Scala's sbt
+# GitHub action for pushing artefacts to Sonatype using `sbt`

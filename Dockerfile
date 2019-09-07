@@ -6,8 +6,8 @@ LABEL "com.github.actions.icon"="book"
 LABEL "com.github.actions.color"="gray-dark"
 
 LABEL version="1.0.0"
-LABEL repository="https://github.com/audienceproject/sbt-to-maven-central"
-LABEL homepage="https://github.com/audienceproject/sbt-to-maven-central"
+LABEL repository="https://github.com/cosmincatalin/sbt-to-maven-central"
+LABEL homepage="https://github.com/cosmincatalin/sbt-to-maven-central"
 LABEL maintainer="Cosmin Catalin Sanda <cosmincatalini@gmail.com>"
 
 ADD entrypoint.sh /entrypoint.sh
