@@ -5,7 +5,7 @@ LABEL "com.github.actions.description"="Publish libraries to Maven Central using
 LABEL "com.github.actions.icon"="book"
 LABEL "com.github.actions.color"="gray-dark"
 
-LABEL version="1.0.0"
+LABEL version="1.0.3"
 LABEL repository="https://github.com/cosmincatalin/sbt-to-maven-central"
 LABEL homepage="https://github.com/cosmincatalin/sbt-to-maven-central"
 LABEL maintainer="Cosmin Catalin Sanda <cosmincatalini@gmail.com>"

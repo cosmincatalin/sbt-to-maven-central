@@ -10,6 +10,7 @@ cat /dev/null > ~/.sbt/1.0/sonatype.sbt
   echo '        "'"$NEXUS_USER"'",'
   echo '        "'"$NEXUS_PASSWORD"'")'
 } >> ~/.sbt/1.0/sonatype.sbt
+sha1sum ~/.sbt/1.0/sonatype.sbt
 
 touch ~/.private.key
 cat /dev/null > ~/.private.key
