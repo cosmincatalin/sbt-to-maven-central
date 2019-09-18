@@ -21,7 +21,7 @@ rm -rf /github/home/.private.key
 touch /github/home/.sbt/1.0/plugins/plugins.sbt
 cat /dev/null > /github/home/.sbt/1.0/plugins/plugins.sbt
 {
-  echo 'addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "2.5")'
+  echo 'addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "2.3")'
 } >> /github/home/.sbt/1.0/plugins/plugins.sbt
 
 sbt +publish
